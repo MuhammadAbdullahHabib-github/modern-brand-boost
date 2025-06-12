@@ -1,21 +1,21 @@
-
 import { Button } from "@/components/ui/button";
 import { Github, Twitter, Linkedin, Mail } from "lucide-react";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-900 text-gray-300">
+    <footer className="bg-gray-100 text-gray-700">
       <div className="container mx-auto px-6 py-16">
         <div className="grid lg:grid-cols-4 md:grid-cols-2 gap-8">
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
-              <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-teal-600 rounded-lg flex items-center justify-center">
-                <span className="text-white font-bold text-sm">BS</span>
-              </div>
-              <span className="text-xl font-bold text-white">BillSuite</span>
+              <img 
+                src="https://spreesuite.com/wp-content/uploads/2023/09/cropped-techfoot-logo.png" 
+                alt="Techfoot Logo" 
+                className="h-8 w-auto"
+              />
             </div>
-            <p className="text-gray-400 leading-relaxed">
+            <p className="text-gray-600 leading-relaxed">
               Streamline your billing process with automated invoicing, payment tracking, 
               and comprehensive analytics.
             </p>
@@ -37,7 +37,7 @@ const Footer = () => {
 
           {/* Product */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Product</h3>
+            <h3 className="text-black font-semibold mb-4">Product</h3>
             <ul className="space-y-2">
               <li><a href="#" className="hover:text-white transition-colors">Features</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Pricing</a></li>
@@ -48,7 +48,7 @@ const Footer = () => {
 
           {/* Company */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Company</h3>
+            <h3 className="text-black font-semibold mb-4">Company</h3>
             <ul className="space-y-2">
               <li><a href="#" className="hover:text-white transition-colors">About</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Blog</a></li>
@@ -59,7 +59,7 @@ const Footer = () => {
 
           {/* Support */}
           <div>
-            <h3 className="text-white font-semibold mb-4">Support</h3>
+            <h3 className="text-black font-semibold mb-4">Support</h3>
             <ul className="space-y-2">
               <li><a href="#" className="hover:text-white transition-colors">Help Center</a></li>
               <li><a href="#" className="hover:text-white transition-colors">Documentation</a></li>
@@ -70,7 +70,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 flex flex-col md:flex-row justify-between items-center">
-          <p className="text-gray-400">&copy; 2024 BillSuite. All rights reserved.</p>
+          <p className="text-gray-400">&copy; 2025 SpreeSuite. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="text-gray-400 hover:text-white transition-colors">Privacy Policy</a>
             <a href="#" className="text-gray-400 hover:text-white transition-colors">Terms of Service</a>

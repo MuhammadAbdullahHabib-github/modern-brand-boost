@@ -1,4 +1,3 @@
-
 import { Card, CardContent } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { PieChart, Pie, Cell, ResponsiveContainer } from "recharts";
@@ -18,28 +17,14 @@ const Analytics = () => {
         </div>
         
         <div className="grid lg:grid-cols-2 gap-12 items-center mb-16">
-          <div className="space-y-6">
-            <Card className="p-6 shadow-lg">
-              <ResponsiveContainer width="100%" height={300}>
-                <PieChart>
-                  <Pie
-                    data={statusData}
-                    cx="50%"
-                    cy="50%"
-                    innerRadius={80}
-                    outerRadius={120}
-                    paddingAngle={5}
-                    dataKey="value"
-                  >
-                    {statusData.map((entry, index) => (
-                      <Cell key={`cell-${index}`} fill={entry.color} />
-                    ))}
-                  </Pie>
-                </PieChart>
-              </ResponsiveContainer>
-            </Card>
+          <div className="space-y-6 flex items-center justify-center">
+            <img 
+              src="/111.png" 
+              alt="Aged Receivables Donut Chart"
+              className="max-w-full h-auto rounded-lg shadow"
+              style={{ maxWidth: '600px', maxHeight: '800px' }}
+            />
           </div>
-          
           <div className="space-y-6">
             <h3 className="text-2xl font-bold text-slate-900">Billing Analytics</h3>
             <p className="text-slate-600 text-lg leading-relaxed">

@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
 import { useState } from "react";
@@ -12,10 +11,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center space-x-2">
-            <div className="w-8 h-8 bg-gradient-to-r from-blue-600 to-teal-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-sm">BS</span>
-            </div>
-            <span className="text-xl font-bold text-foreground">BillSuite</span>
+            <img 
+              src="https://spreesuite.com/wp-content/uploads/2023/09/cropped-techfoot-logo.png" 
+              alt="Techfoot Logo" 
+              className="h-8 w-auto"
+            />
           </div>
 
           {/* Desktop Navigation */}
@@ -24,13 +24,13 @@ const Header = () => {
             <a href="#dashboard" className="text-muted-foreground hover:text-foreground transition-colors">Dashboard</a>
             <a href="#portal" className="text-muted-foreground hover:text-foreground transition-colors">Portal</a>
             <a href="#analytics" className="text-muted-foreground hover:text-foreground transition-colors">Analytics</a>
-            <a href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors">Pricing</a>
+            {/* <a href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors">Pricing</a> */}
           </nav>
 
           {/* Desktop CTA */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="ghost">Sign In</Button>
-            <Button className="bg-blue-600 hover:bg-blue-700">Get Started</Button>
+            {/* <Button variant="ghost">Sign In</Button> */}
+            <Button className="bg-blue-600 hover:bg-blue-700" onClick={() => window.location.href = 'https://spreesuite.com/portal/#/'}>Get Started</Button>
           </div>
 
           {/* Mobile Menu Button */}
@@ -50,9 +50,9 @@ const Header = () => {
               <a href="#dashboard" className="text-muted-foreground hover:text-foreground transition-colors">Dashboard</a>
               <a href="#portal" className="text-muted-foreground hover:text-foreground transition-colors">Portal</a>
               <a href="#analytics" className="text-muted-foreground hover:text-foreground transition-colors">Analytics</a>
-              <a href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors">Pricing</a>
+              {/* <a href="#pricing" className="text-muted-foreground hover:text-foreground transition-colors">Pricing</a> */}
               <div className="flex flex-col space-y-2 pt-4">
-                <Button variant="ghost">Sign In</Button>
+                {/* <Button variant="ghost">Sign In</Button> */}
                 <Button className="bg-blue-600 hover:bg-blue-700">Get Started</Button>
               </div>
             </nav>

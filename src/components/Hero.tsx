@@ -19,20 +19,15 @@ const Hero = () => {
           </h1>
           
           <p className="text-xl text-slate-600 max-w-2xl leading-relaxed">
-            Managing billing can be quite a challenge for recurring billing and 
-            invoicing. With automated packages and plans, you'll 
-            have everything you need to manage your customers, 
-            revenue, key challenges, track sales revenue billing and 
-            invoicing with complete transparency and advanced 
-            processes.
+          Introducing the all-in-one solution for recurring billing and invoicing. With customizable packages and plans, you’ll have everything you need to manage your business’s finances. Say goodbye to the hassle of manual billing and invoicing and hello to streamlined and automated processes
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <Button size="lg" className="text-lg px-8 py-6 bg-slate-800 hover:bg-slate-900 text-white shadow-lg hover:shadow-xl transition-all">
-              Know the features
+            <Button size="lg" className="text-lg px-8 py-6 bg-slate-800 hover:bg-slate-900 text-white shadow-lg hover:shadow-xl transition-all" onClick={() => window.location.href = 'https://demo.spreesuite.com/'}>
+              Demo Workspace
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-2 border-teal-600 text-teal-600 hover:bg-teal-50">
-              Go To Portal
+            <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-2 border-teal-600 text-teal-600 hover:bg-teal-50" onClick={() => window.location.href = 'https://spreesuite.com/portal/#/'}>
+              Get Started
             </Button>
           </div>
         </div>
@@ -56,7 +51,7 @@ const Hero = () => {
             <div className="grid grid-cols-3 gap-4 mb-6">
               <div className="h-16 bg-gradient-to-br from-blue-100 to-blue-200 rounded-lg flex items-center justify-center">
                 <div className="text-center">
-                  <div className="text-lg font-bold text-blue-700">$24.5K</div>
+                  <div className="text-lg font-bold text-blue-700">PKR 24.5K</div>
                   <div className="text-xs text-blue-600">Revenue</div>
                 </div>
               </div>
@@ -93,7 +88,7 @@ const Hero = () => {
           
           <div className="absolute -bottom-4 -left-4 bg-white rounded-lg shadow-lg p-3">
             <div className="text-xs text-slate-600">New Invoice</div>
-            <div className="text-sm font-bold text-slate-900">$1,250.00</div>
+            <div className="text-sm font-bold text-slate-900">PKR1,250.00</div>
           </div>
         </div>
       </div>

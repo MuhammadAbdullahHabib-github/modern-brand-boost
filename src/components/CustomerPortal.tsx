@@ -52,7 +52,7 @@ const CustomerPortal = () => {
                           <div className="text-sm text-slate-600">Due: Dec 15, 2024</div>
                         </div>
                         <div className="text-right mr-4">
-                          <div className="font-bold text-slate-900">$1,250.00</div>
+                          <div className="font-bold text-slate-900">PKR 1,250.00</div>
                           <Badge className="bg-green-100 text-green-800">Paid</Badge>
                         </div>
                         <div className="flex space-x-1">
@@ -71,7 +71,7 @@ const CustomerPortal = () => {
                           <div className="text-sm text-slate-600">Due: Jan 15, 2025</div>
                         </div>
                         <div className="text-right mr-4">
-                          <div className="font-bold text-slate-900">$2,150.00</div>
+                          <div className="font-bold text-slate-900">PKR 2,150.00</div>
                           <Badge className="bg-orange-100 text-orange-800">Pending</Badge>
                         </div>
                         <div className="flex space-x-1">
