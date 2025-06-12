@@ -6,66 +6,45 @@ import {
   BarChart3, 
   Shield, 
   Clock, 
-  Smartphone,
-  Users,
-  Zap,
-  Globe
+  Smartphone
 } from "lucide-react";
 
 const features = [
   {
     icon: FileText,
-    title: "Smart Invoicing",
-    description: "AI-powered invoice generation with automatic tax calculations and currency conversion support.",
+    title: "Invoicing",
+    description: "Integrating automated invoicing, you get a seamless, simple, and efficient way to invoice. It's like owning a personal financial helper; you're ahead of the game, can add multiple tasks and set different deadline for customers.",
     color: "from-blue-500 to-blue-600"
   },
   {
     icon: CreditCard,
-    title: "Global Payments",
-    description: "Accept payments worldwide through 50+ payment methods including cards, wallets, and bank transfers.",
+    title: "Reconciling",
+    description: "Integrated automated reconciling tools allow your finance department to be paid and automate all your financial workflows through automated workflows with a single click. A complete solution for every business need.",
     color: "from-green-500 to-green-600"
   },
   {
     icon: BarChart3,
-    title: "Advanced Analytics",
-    description: "Real-time insights with predictive analytics, revenue forecasting, and customer behavior tracking.",
+    title: "Real-time reporting",
+    description: "Fast track your accounting workflows. With reporting and analytics integrations that track accounting data in real-time. Confidently track your finances with powerful reports and automated billing statements that optimize performance when you need it.",
     color: "from-purple-500 to-purple-600"
   },
   {
     icon: Shield,
-    title: "Enterprise Security",
-    description: "Bank-grade security with SOC 2 compliance, end-to-end encryption, and fraud detection.",
+    title: "Authorization",
+    description: "Advanced security including enterprise level user management, payment, business banking, secure and secure data solutions and secure payment processing using our secure billing management infrastructure.",
     color: "from-red-500 to-red-600"
   },
   {
-    icon: Zap,
-    title: "Automation",
-    description: "Automate recurring billing, payment reminders, and follow-ups to save time and reduce errors.",
+    icon: Clock,
+    title: "Scheduling",
+    description: "Progress and track your days to see how many days have passed to complete each billing as shown calendar views through reliable resource management in financial setup and operational reporting.",
     color: "from-yellow-500 to-orange-500"
   },
   {
-    icon: Globe,
-    title: "Multi-Currency",
-    description: "Support for 100+ currencies with real-time exchange rates and localized tax compliance.",
-    color: "from-teal-500 to-cyan-500"
-  },
-  {
-    icon: Users,
-    title: "Team Collaboration",
-    description: "Role-based access control with audit trails and collaborative workflow management.",
-    color: "from-indigo-500 to-indigo-600"
-  },
-  {
     icon: Smartphone,
-    title: "Mobile First",
-    description: "Native mobile apps for iOS and Android with offline capability and push notifications.",
-    color: "from-pink-500 to-rose-500"
-  },
-  {
-    icon: Clock,
-    title: "Time Tracking",
-    description: "Integrated time tracking with project management and automatic timesheet conversion.",
-    color: "from-emerald-500 to-emerald-600"
+    title: "Subscription tracking",
+    description: "Fulfill your market your device that and how much time each subscription takes via automated administration workflows, ensuring streamlined and automated payments directly out of your control to a customizable business function.",
+    color: "from-teal-500 to-cyan-500"
   }
 ];
 
@@ -75,12 +54,8 @@ const Features = () => {
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
           <h2 className="text-4xl font-bold text-slate-900 mb-4">
-            Everything you need to scale your billing
+            Here's what your Billing management suite may include
           </h2>
-          <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Powerful features designed for modern businesses. From startups to enterprises, 
-            we've got the tools you need to streamline your billing operations.
-          </p>
         </div>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">

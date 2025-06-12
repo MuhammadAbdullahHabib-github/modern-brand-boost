@@ -10,47 +10,30 @@ const Hero = () => {
       
       <div className="container mx-auto px-6 grid lg:grid-cols-2 gap-12 items-center">
         <div className="text-center lg:text-left space-y-8">
-          <div className="inline-flex items-center px-4 py-2 bg-blue-100 text-blue-700 rounded-full text-sm font-medium mb-4">
-            🚀 New: Advanced Analytics Dashboard
-          </div>
-          
-          <h1 className="text-5xl lg:text-7xl font-bold text-slate-900 leading-tight">
-            Modern{" "}
+          <h1 className="text-5xl lg:text-6xl font-bold text-slate-900 leading-tight">
+            Eliminate the hassle of manual{" "}
             <span className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
-              Billing
+              billing and invoicing
             </span>{" "}
-            Made Simple
+            with our powerful software
           </h1>
           
           <p className="text-xl text-slate-600 max-w-2xl leading-relaxed">
-            Transform your billing workflow with our intelligent automation platform. 
-            Create invoices, track payments, and grow your business with powerful analytics—all in one place.
+            Managing billing can be quite a challenge for recurring billing and 
+            invoicing. With automated packages and plans, you'll 
+            have everything you need to manage your customers, 
+            revenue, key challenges, track sales revenue billing and 
+            invoicing with complete transparency and advanced 
+            processes.
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-            <Button size="lg" className="text-lg px-8 py-6 bg-blue-600 hover:bg-blue-700 shadow-lg hover:shadow-xl transition-all">
-              Start Free Trial
-              <ArrowRight className="ml-2 h-5 w-5" />
+            <Button size="lg" className="text-lg px-8 py-6 bg-slate-800 hover:bg-slate-900 text-white shadow-lg hover:shadow-xl transition-all">
+              Know the features
             </Button>
-            <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-2 hover:bg-slate-50">
-              <Play className="mr-2 h-5 w-5" />
-              Watch Demo
+            <Button variant="outline" size="lg" className="text-lg px-8 py-6 border-2 border-teal-600 text-teal-600 hover:bg-teal-50">
+              Go To Portal
             </Button>
-          </div>
-          
-          <div className="flex items-center gap-8 pt-4">
-            <div className="text-center">
-              <div className="text-2xl font-bold text-slate-900">10k+</div>
-              <div className="text-sm text-slate-600">Active Users</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl font-bold text-slate-900">$2M+</div>
-              <div className="text-sm text-slate-600">Processed</div>
-            </div>
-            <div className="text-center">
-              <div className="text-2xl font-bold text-slate-900">99.9%</div>
-              <div className="text-sm text-slate-600">Uptime</div>
-            </div>
           </div>
         </div>
         

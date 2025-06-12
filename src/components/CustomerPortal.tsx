@@ -9,53 +9,20 @@ const CustomerPortal = () => {
     <section id="portal" className="py-24 bg-white">
       <div className="container mx-auto px-6">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-slate-900 mb-4">Self-Service Customer Portal</h2>
-          <p className="text-xl text-slate-600 max-w-3xl mx-auto">
-            Empower your customers with a beautiful, intuitive portal where they can manage 
-            their billing, view invoices, make payments, and access their account information 24/7.
-          </p>
+          <h2 className="text-4xl font-bold text-slate-900 mb-4">User Portals</h2>
         </div>
         
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <h3 className="text-2xl font-bold text-slate-900">Complete Customer Experience</h3>
+            <h3 className="text-2xl font-bold text-slate-900">Customer Portal</h3>
             <p className="text-slate-600 text-lg leading-relaxed">
-              Give your customers complete control over their billing experience. Our portal 
-              provides transparency, convenience, and professional presentation that enhances 
-              customer satisfaction and reduces support tickets.
+              Use management within the scope of our business allows 
+              for leverage you customers a billing information. Customer 
+              can view bills, manage subscriptions, provide billing, all of 
+              it apps track, domestic 24/7 and accessible from anywhere. 
+              Our customer portal provide advanced transparency and 
+              end of you access billing apps.
             </p>
-            
-            <div className="space-y-4">
-              <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-blue-100 rounded-full flex items-center justify-center mt-1">
-                  <div className="w-2 h-2 bg-blue-600 rounded-full"></div>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-slate-900">Invoice Management</h4>
-                  <p className="text-slate-600">View, download, and print invoices with detailed breakdowns</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-green-100 rounded-full flex items-center justify-center mt-1">
-                  <div className="w-2 h-2 bg-green-600 rounded-full"></div>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-slate-900">Secure Payments</h4>
-                  <p className="text-slate-600">Multiple payment options with saved payment methods</p>
-                </div>
-              </div>
-              
-              <div className="flex items-start space-x-3">
-                <div className="w-6 h-6 bg-purple-100 rounded-full flex items-center justify-center mt-1">
-                  <div className="w-2 h-2 bg-purple-600 rounded-full"></div>
-                </div>
-                <div>
-                  <h4 className="font-semibold text-slate-900">Account Updates</h4>
-                  <p className="text-slate-600">Update billing information and preferences instantly</p>
-                </div>
-              </div>
-            </div>
           </div>
           
           <div className="relative">
